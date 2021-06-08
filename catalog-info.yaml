@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: maya-test
+  description: mayank test app
+  annotations: 
+    github.com/project-slug: krmayankk/back-test2
+    backstage.io/source-ref: "https://github.com/krmayankk/back-test2"
+    backstage.io/techdocs-ref: url:https://github.com/krmayankk/back-test2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: krmayankk
